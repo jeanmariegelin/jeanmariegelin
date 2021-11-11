@@ -1,0 +1,36 @@
+p {
+    font-size: large;
+    color:blueviolet
+}
+    .loquesoy 
+    { background-color: aqua;
+                color: red;
+    }
+#loquesere {
+    color: red
+    font-size:coral
+}
+.main-nav {
+    margin-top: 15px;
+    list-style: none;
+    padding-left: 0;
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    padding-left: 5px;
+    background-color: aqua;
+    color: blueviolet;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.main-nav__item a:hover {
+    color: black;
+}
+.main-nav__item a:active {
+    color: red;
+}
+.main-nav__item a::after {
+    content: " | ";
+}

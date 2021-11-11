@@ -1,0 +1,32 @@
+* {
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+/*
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: violet;
+}
+/*lo que hicimos arriba con widht y height es para que ocupe al 100% el
+tamaño de la pagina sin importar su tamanño*/ 
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+}
+
+# {
+    background-color: green;
+
+}

@@ -1,0 +1,39 @@
+/*aplicar color a un elemento que esta mas cerca del otro elemento que necesitas 
+El signo + significa que lo que este cerca, que le de una propriedad
+
+p + h2 {
+    color: yellow;
+    background-color: violet;
+}
+h3 {
+color: blue; 
+}
+*/
+/*como hno general, quiero que tds ls hnos que tenes cerca los modificas*/  
+
+/*
+h2 ~ p {
+    color: green;
+}
+h2 {
+    font-size: 25px;
+}
+*/
+
+/* todas etiquetas que son hijo directo de otra etiqueta, puedo tomar propriedad. Ex:
+*/
+div p{
+    color: red;
+    font-size: 1.5em;
+}
+.Text-container {
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+/* descendientes--> es cuando llames a un elemento en es especifico como .nav a.
+Y ultima cosa, cuando vemos por ex: div p {
+    color: red;
+}
+lo que estamos diciendo es que todas las eitquetas p que esten dentro de div. tomen el color rojo
+*/

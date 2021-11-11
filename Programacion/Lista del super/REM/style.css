@@ -1,0 +1,17 @@
+/* De por si, el REM vale 16px; pero si ponemos el font-size del html de 62.5% aho un REM vale, 10px,
+por lo tanto, podemos ir agregando x ej, 1.6, ya sabemos que es igual a 16px.*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+/* Hay que usar este formato siempre, como para resetear las medidas de nuestro css,
+para no tener que trabajar con EM, ni con px.*/
+
+p {
+    font-size: 2.5rem;
+
+}
